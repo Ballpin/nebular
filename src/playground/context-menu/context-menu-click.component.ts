@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { NB_WINDOW, NbMenuService } from '@nebular/theme';
+import { NB_WINDOW, NbMenuService } from 'nebular/src/framework/theme';
 import { filter, map } from 'rxjs/operators';
 
 @Component({

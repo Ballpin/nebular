@@ -11,7 +11,7 @@ import {
   NbCheckboxModule,
   NbInputModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 
 import {
   NB_AUTH_FALLBACK_TOKEN,

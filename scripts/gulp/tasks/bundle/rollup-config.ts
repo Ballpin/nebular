@@ -30,10 +30,10 @@ const ROLLUP_GLOBALS = {
   // 3rd party dependencies
   'intersection-observer': 'intersection-observer',
 
-  // @nebular dependencies
-  '@nebular/theme': 'nb.theme',
-  '@nebular/auth': 'nb.auth',
-  '@nebular/security': 'nb.security',
+  // nebular/src/framework dependencies
+  'nebular/src/framework/theme': 'nb.theme',
+  'nebular/src/framework/auth': 'nb.auth',
+  'nebular/src/framework/security': 'nb.security',
 };
 
 export const ROLLUP_COMMON_CONFIG = {

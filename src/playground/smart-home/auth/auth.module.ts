@@ -10,8 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { NgxAuthRoutingModule } from './auth-routing.module';
-import { NbAuthModule } from '@nebular/auth';
-import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
+import { NbAuthModule } from 'nebular/src/framework/auth';
+import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from 'nebular/src/framework/theme';
 
 import { NgxLoginComponent } from './login/login.component';
 

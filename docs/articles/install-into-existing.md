@@ -20,9 +20,9 @@ At this step, we assume you already have Angular modules installed.
 ## Install Nebular modules
 
 ```bash
-npm i -S @nebular/theme @nebular/auth @nebular/security
+npm i -S nebular/src/framework/theme nebular/src/framework/auth nebular/src/framework/security
 ```
-You can remove `@nebular/auth` and `@nebular/security` from the command if you don't need authentication/security parts in your project.
+You can remove `nebular/src/framework/auth` and `nebular/src/framework/security` from the command if you don't need authentication/security parts in your project.
 <hr>
 
 ## Configure Nebular
@@ -31,7 +31,7 @@ At this stage you have everything in place, let's configure Nebular in the app m
 
 ```ts
 
-import { NbThemeModule } from '@nebular/theme';
+import { NbThemeModule } from 'nebular/src/framework/theme';
 
 ...
 
@@ -54,7 +54,7 @@ Include default Nebular theme CSS files into your `angular.json` file:
 
 ```scss
 "styles": [
-  "../node_modules/@nebular/theme/styles/prebuilt/default.css", // or cosmic.css
+  "../node_modules/nebular/src/framework/theme/styles/prebuilt/default.css", // or cosmic.css
 ],
 ```
 
@@ -73,7 +73,7 @@ Now, let's create a simple Nebular page (header + sidebar) in your project. We s
 
 ```ts
 import { RouterModule } from '@angular/router'; // we also need angular router for Nebular to function properly
-import { NbSidebarModule, NbLayoutModule, NbSidebarService } from '@nebular/theme';
+import { NbSidebarModule, NbLayoutModule, NbSidebarService } from 'nebular/src/framework/theme';
 
 ...
 

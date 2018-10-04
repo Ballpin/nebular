@@ -14,7 +14,7 @@
     },
     "**/*.js.map": true,
 
-    // exclude @nebular build folders
+    // exclude nebular/src/framework build folders
     "**/.lib": true
   }
 }

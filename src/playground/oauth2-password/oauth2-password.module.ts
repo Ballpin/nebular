@@ -13,12 +13,12 @@ import { HttpClientModule } from '@angular/common/http';
 import {
   NbCardModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 
 import {
   NbAuthModule, NbAuthOAuth2JWTToken,
   NbOAuth2AuthStrategy, NbOAuth2ClientAuthMethod, NbOAuth2GrantType,
-} from '@nebular/auth';
+} from 'nebular/src/framework/auth';
 
 import { NbOAuth2PasswordLoginComponent } from './oauth2-password-login.component';
 

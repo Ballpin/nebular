@@ -7,12 +7,12 @@
 import { Component, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { takeWhile, withLatestFrom, map } from 'rxjs/operators';
-import { NbThemeService, NbMenuItem, NbSidebarService, NbMenuService } from '@nebular/theme';
+import { NbThemeService, NbMenuItem, NbSidebarService, NbMenuService } from 'nebular/src/framework/theme';
 
 import { NgdMenuService } from '../@theme/services/menu.service';
 import { NgdPaginationService } from '../@theme/services';
 
-import { NbMediaBreakpoint } from '@nebular/theme';
+import { NbMediaBreakpoint } from 'nebular/src/framework/theme';
 
 @Component({
   selector: 'ngd-documentation',

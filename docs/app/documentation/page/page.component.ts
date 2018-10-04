@@ -16,7 +16,7 @@ import {
   tap,
   takeWhile,
 } from 'rxjs/operators';
-import { NB_WINDOW } from '@nebular/theme';
+import { NB_WINDOW } from 'nebular/src/framework/theme';
 import { NgdStructureService, NgdTocStateService } from '../../@theme/services';
 import { fromEvent } from 'rxjs';
 

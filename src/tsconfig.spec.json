@@ -10,7 +10,7 @@
       "node"
     ],
     "paths": {
-      "@nebular/*": [
+      "nebular/src/framework/*": [
         "./framework/*"
       ]
     }

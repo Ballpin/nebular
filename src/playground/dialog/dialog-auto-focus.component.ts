@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { NbDialogRef, NbDialogService } from '@nebular/theme';
+import { NbDialogRef, NbDialogService } from 'nebular/src/framework/theme';
 
 
 @Component({

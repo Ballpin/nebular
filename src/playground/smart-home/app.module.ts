@@ -13,9 +13,9 @@ import {
   NbButtonModule,
   NbCardModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 
-import { NbAuthModule, NbDummyAuthStrategy } from '@nebular/auth';
+import { NbAuthModule, NbDummyAuthStrategy } from 'nebular/src/framework/auth';
 import { NgxAppComponent } from './app.component';
 import { NgxAppRouting } from './app-routing.module';
 

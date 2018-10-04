@@ -5,7 +5,7 @@
  */
 
 import { Injectable } from '@angular/core';
-import { NbMenuItem } from '@nebular/theme';
+import { NbMenuItem } from 'nebular/src/framework/theme';
 
 import { NgdStructureService } from './structure.service';
 import { NgdTextService } from './text.service';

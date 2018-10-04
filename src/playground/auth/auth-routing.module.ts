@@ -15,7 +15,7 @@ import {
   NbRegisterComponent,
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
-} from '@nebular/auth';
+} from 'nebular/src/framework/auth';
 import { NbAclTestComponent } from './acl/acl-test.component';
 import { NbAuthGuard } from './auth-guard.service';
 import { NbPlaygroundApiCallsComponent } from './api-calls/api-calls.component';

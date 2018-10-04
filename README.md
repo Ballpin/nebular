@@ -1,6 +1,6 @@
-[![npm](https://img.shields.io/npm/l/@nebular/theme.svg)]()
+[![npm](https://img.shields.io/npm/l/nebular/src/framework/theme.svg)]()
 [![Build Status](https://travis-ci.org/akveo/nebular.svg?branch=master)](https://travis-ci.org/akveo/nebular)
-[![npm](https://img.shields.io/npm/dt/@nebular/theme.svg)](https://www.npmjs.com/package/@nebular/theme)
+[![npm](https://img.shields.io/npm/dt/nebular/src/framework/theme.svg)](https://www.npmjs.com/package/nebular/src/framework/theme)
 [![Dependency Status](https://david-dm.org/akveo/ngx-admin/status.svg)](https://david-dm.org/akveo/ng2-admin)
 
 ## Nebular is a set of essential modules for your next Angular application.
@@ -13,7 +13,7 @@ At the same time, Nebular allows you to use it together with any other UI librar
 [Documentation](https://akveo.github.io/nebular/docs/getting-started/what-is-nebular?utm_source=github&utm_medium=nebular_readme) | [ngx-admin demo](http://github.com/akveo/ngx-admin)
 
 ### :art: Theme
-@nebular/theme
+nebular/src/framework/theme
 
 Main Nebular module which includes UI Kit and Theme System.
 
@@ -62,7 +62,7 @@ Right-to-left writing system support for all components.
 
 
 ### :closed_lock_with_key: Auth
-@nebular/auth
+nebular/src/framework/auth
 
 UI and logic for front-end authentication flow.
 
@@ -89,7 +89,7 @@ Configurable token storage service.
 HTTP interceptors to pass authentication token with any HTTP-request.
 
 ### :cop: Security
-@nebular/security
+nebular/src/framework/security
 
 #### ACL
 Roles and permission management based on access control list. `*nbIsGranted` conditional directive.

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbSearchService } from '@nebular/theme';
+import { NbSearchService } from 'nebular/src/framework/theme';
 
 @Component({
   selector: 'nb-search-event',

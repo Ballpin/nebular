@@ -8,7 +8,7 @@ import { async, inject, TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { ActivatedRoute } from '@angular/router';
-import { NB_WINDOW } from '@nebular/theme';
+import { NB_WINDOW } from 'nebular/src/framework/theme';
 import { NbOAuth2AuthStrategy } from './oauth2-strategy';
 import { NbOAuth2ClientAuthMethod, NbOAuth2GrantType, NbOAuth2ResponseType } from './oauth2-strategy.options';
 import { NbAuthResult, nbAuthCreateToken, NbAuthOAuth2Token } from '../../services';

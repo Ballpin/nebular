@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, HostBinding, Input } from '@angular/core';
-import { NbMenuItem, NbSidebarService } from '@nebular/theme';
+import { NbMenuItem, NbSidebarService } from 'nebular/src/framework/theme';
 import { NgdVersionService } from '../../services';
 
 @Component({

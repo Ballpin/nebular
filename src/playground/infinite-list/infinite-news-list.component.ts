@@ -2,8 +2,8 @@ import { Component, ViewChildren, ElementRef, QueryList, OnInit, Inject, PLATFOR
 import { isPlatformBrowser } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { take, filter, map } from 'rxjs/operators';
-import { NbListItemComponent, NbLayoutScrollService, NB_WINDOW } from '@nebular/theme';
-import { getElementHeight } from '@nebular/theme/components/helpers';
+import { NbListItemComponent, NbLayoutScrollService, NB_WINDOW } from 'nebular/src/framework/theme';
+import { getElementHeight } from 'nebular/src/framework/theme/components/helpers';
 import { NewsService } from './news.service';
 
 @Component({

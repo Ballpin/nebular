@@ -14,7 +14,7 @@ To enable bootstrap support you have to do the following:
 - Install nebular bootstrap and bootstrap itself packages: 
 
 ```bash
-npm i @nebular/bootstrap bootstrap
+npm i nebular/src/framework/bootstrap bootstrap
 ```
 
 - Add bootstrap in `angular.json`: 
@@ -29,9 +29,9 @@ Then if you just want to use predefined themes you have to import prebuilt style
 
 ```json
 "styles": [
-  "node_modules/@nebular/bootstrap/styles/prebuilt/cosmic.css",
-  "node_modules/@nebular/bootstrap/styles/prebuilt/default.css",
-  "node_modules/@nebular/bootstrap/styles/prebuilt/corporate.css",
+  "node_modules/nebular/src/framework/bootstrap/styles/prebuilt/cosmic.css",
+  "node_modules/nebular/src/framework/bootstrap/styles/prebuilt/default.css",
+  "node_modules/nebular/src/framework/bootstrap/styles/prebuilt/corporate.css",
 ]
 ```
 
@@ -40,13 +40,13 @@ Another way, if you need to customize themes you have to do the following steps:
 - Import nebular bootstrap into `styles.scss`:
 
 ```scss
-@import '~@nebular/bootstrap/styles/globals';
+@import '~nebular/src/framework/bootstrap/styles/globals';
 ```
 
 - Include `nb-bootstrap-global` in styles.scss:
 
 ```scss
-@import '~@nebular/bootstrap/styles/globals';
+@import '~nebular/src/framework/bootstrap/styles/globals';
 
 @include nb-install() {
   @include nb-bootstrap-global();

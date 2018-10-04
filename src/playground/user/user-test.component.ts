@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbBadgeComponent } from '@nebular/theme';
+import { NbBadgeComponent } from 'nebular/src/framework/theme';
 
 @Component({
   selector: 'nb-user-test',

@@ -6,7 +6,7 @@
 
 import { Component } from '@angular/core';
 
-import { NbCalendarDayCellComponent } from '@nebular/theme';
+import { NbCalendarDayCellComponent } from 'nebular/src/framework/theme';
 
 
 @Component({

@@ -1,7 +1,7 @@
 {
-  "name": "@nebular/security",
+  "name": "nebular/src/framework/security",
   "version": "2.0.0-rc.10",
-  "description": "@nebular/security",
+  "description": "nebular/src/framework/security",
   "main": "./bundles/security.umd.js",
   "module": "./index.js",
   "typings": "./index.d.ts",

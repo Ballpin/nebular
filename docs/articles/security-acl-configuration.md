@@ -55,7 +55,7 @@ In a simplest form we can provide this service directly in the main module:
 // ...
 
 import { of as observableOf } from 'rxjs/observable/of';
-import { NbSecurityModule, NbRoleProvider } from '@nebular/security';
+import { NbSecurityModule, NbRoleProvider } from 'nebular/src/framework/security';
 
 
 @NgModule({
@@ -97,8 +97,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operators/map';
 
-import { NbAuthService, NbAuthJWTToken } from '@nebular/auth';
-import { NbRoleProvider } from '@nebular/security';
+import { NbAuthService, NbAuthJWTToken } from 'nebular/src/framework/auth';
+import { NbRoleProvider } from 'nebular/src/framework/security';
 
 
 @Injectable()
@@ -121,8 +121,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operators/map';
 
-import { NbAuthService, NbAuthJWTToken } from '@nebular/auth';
-import { NbRoleProvider } from '@nebular/security';
+import { NbAuthService, NbAuthJWTToken } from 'nebular/src/framework/auth';
+import { NbRoleProvider } from 'nebular/src/framework/security';
 
 @Injectable()
 export class RoleProvider implements NbRoleProvider {
@@ -153,7 +153,7 @@ And let's provide the service in the app module:
 // ...
 
 import { RoleProvider } from './role.provider';
-import { NbSecurityModule, NbRoleProvider } from '@nebular/security';
+import { NbSecurityModule, NbRoleProvider } from 'nebular/src/framework/security';
 
 
 @NgModule({
@@ -197,7 +197,7 @@ We can adjust our example to utilize it. In your `comment-form.component.ts`, im
 
 ```typescript
 import { Component } from '@angular/core';
-import { NbAccessChecker } from '@nebular/security';
+import { NbAccessChecker } from 'nebular/src/framework/security';
 
 @Component({
   // ...

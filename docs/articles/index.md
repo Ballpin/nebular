@@ -16,24 +16,24 @@ The purpose of the modules is to solve generic tasks faster and more efficient s
 
 Nebular modules are distributed as separated `npm` packages, here's a list of currently available:
 
-- Nebular Theme `@nebular/theme`
+- Nebular Theme `nebular/src/framework/theme`
   - Theme System - set of SCSS rules, which allows you to modify application look & feel by changing variables, with fewer custom styles.
   - UI Kit - pure Angular components with two style themes and no 3rd party dependencies.
   - Server-side rendering compatibility!
   - Right-to-left writing system support for all components.
-- Nebular Auth `@nebular/auth`
+- Nebular Auth `nebular/src/framework/auth`
   - Authentication components (login/register/reset password/restore password).
   - Multiple configurable authentication Strategies (backend connectors).
   - Helpers for token management (storing, passing with HTTP requests, etc).
-- Nebular Security `@nebular/security` 
+- Nebular Security `nebular/src/framework/security` 
   - module for roles and permissions management.
-- Nebular Bootstrap `@nebular/bootstrap`
+- Nebular Bootstrap `nebular/src/framework/bootstrap`
   - Style overriding for Bootstrap, so that the application has a consistent look & feel across libraries.
 - Admin dashboard starter kit <a href="https://github.com/akveo/ngx-admin" target="_blank">ngx-admin</a> - Angular application based on Nebular modules with beautiful IOT components.
 
 Other ideas
-- *@nebular/dashboard* - module for draggable/resizable dashboards creation.
-- *@nebular/data* - application data & state management.
+- *nebular/src/framework/dashboard* - module for draggable/resizable dashboards creation.
+- *nebular/src/framework/data* - application data & state management.
 <hr>
 
 ## The purpose

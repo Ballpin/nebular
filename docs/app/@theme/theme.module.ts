@@ -16,7 +16,7 @@ import {
   NbSidebarModule,
   NbCardModule,
   NbCheckboxModule,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 
 import {
   NgdHeaderComponent,

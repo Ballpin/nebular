@@ -10,7 +10,7 @@ import { take } from 'rxjs/operators';
 import { NbTokenLocalStorage, NbTokenStorage } from './token-storage';
 import { NbAuthSimpleToken, NbAuthToken, nbAuthCreateToken } from './token';
 import { NbTokenService } from './token.service';
-import { NbAuthJWTToken } from '@nebular/auth/services/token/token';
+import { NbAuthJWTToken } from 'nebular/src/framework/auth/services/token/token';
 import { NB_AUTH_FALLBACK_TOKEN, NbAuthTokenParceler } from './token-parceler';
 import { NB_AUTH_TOKENS } from '../../auth.options';
 

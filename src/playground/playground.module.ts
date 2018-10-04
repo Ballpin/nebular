@@ -41,7 +41,7 @@ import {
   NbDialogModule,
   NbSelectModule,
   NbWindowModule,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 
 import { NbPlaygroundRoutingModule } from './playground-routing.module';
 import { NbPlaygroundBaseComponent } from './playground-base.component';

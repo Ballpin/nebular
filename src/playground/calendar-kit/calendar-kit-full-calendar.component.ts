@@ -6,7 +6,7 @@ import {
   NbCalendarDayPickerComponent,
   NbCalendarMonthModelService,
   NbLocaleService,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 
 
 @Component({

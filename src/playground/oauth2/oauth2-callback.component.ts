@@ -5,7 +5,7 @@
  */
 
 import { Component, OnDestroy } from '@angular/core';
-import { NbAuthResult, NbAuthService } from '@nebular/auth';
+import { NbAuthResult, NbAuthService } from 'nebular/src/framework/auth';
 import { Router } from '@angular/router';
 import { takeWhile } from 'rxjs/operators';
 

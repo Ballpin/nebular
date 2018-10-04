@@ -3,7 +3,7 @@ import { isPlatformBrowser } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { concat } from 'rxjs';
 import { take, toArray } from 'rxjs/operators';
-import { NbListItemComponent, NbLayoutScrollService, NB_WINDOW, NbLayoutRulerService } from '@nebular/theme';
+import { NbListItemComponent, NbLayoutScrollService, NB_WINDOW, NbLayoutRulerService } from 'nebular/src/framework/theme';
 import { NewsService } from './news.service';
 
 @Component({

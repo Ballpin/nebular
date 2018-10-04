@@ -16,10 +16,10 @@
     "baseUrl": ".",
     "types": [],
     "paths": {
-      "@nebular/theme": ["../src/framework/theme"],
-      "@nebular/theme/*": ["../src/framework/theme/*"],
-      "@nebular/auth": ["../src/framework/auth"],
-      "@nebular/security": ["../src/framework/security"]
+      "nebular/src/framework/theme": ["../src/framework/theme"],
+      "nebular/src/framework/theme/*": ["../src/framework/theme/*"],
+      "nebular/src/framework/auth": ["../src/framework/auth"],
+      "nebular/src/framework/security": ["../src/framework/security"]
     }
   },
   "exclude": [

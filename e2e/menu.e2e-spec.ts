@@ -251,7 +251,7 @@ describe('nb-menu', () => {
 
             menu333el.getText()
               .then(val => {
-                expect(val).toEqual('@nebular/theme');
+                expect(val).toEqual('nebular/src/framework/theme');
               });
 
             menu333el.click()

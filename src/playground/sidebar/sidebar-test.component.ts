@@ -6,7 +6,7 @@
 
 import { Component, OnInit } from '@angular/core';
 
-import { NbSidebarService } from '@nebular/theme';
+import { NbSidebarService } from 'nebular/src/framework/theme';
 
 @Component({
   selector: 'nb-sidebar-test',

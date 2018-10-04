@@ -18,7 +18,7 @@ import {
   NbTabsetModule,
   NbProgressBarModule,
   NbCheckboxModule,
-} from '@nebular/theme';
+} from 'nebular/src/framework/theme';
 import { NgdThemeModule } from './@theme/theme.module';
 import { NgdAppComponent } from './app.component';
 import { routes } from './app.routes';

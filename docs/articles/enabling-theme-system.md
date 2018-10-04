@@ -15,7 +15,7 @@
 
 ```scss
 "styles": [
-        "../node_modules/@nebular/theme/styles/prebuilt/cosmic.css", // or default.css
+        "../node_modules/nebular/src/framework/theme/styles/prebuilt/cosmic.css", // or default.css
       ],
 
 ```
@@ -32,8 +32,8 @@ And that is all. In the future, if you need any of the advanced features - you c
 
 ```scss
 // import Nebular Theme System and the default theme
-@import '~@nebular/theme/styles/theming';
-@import '~@nebular/theme/styles/themes/default';
+@import '~nebular/src/framework/theme/styles/theming';
+@import '~nebular/src/framework/theme/styles/themes/default';
 
 // and change the variables you need, 
 // or simply leave the map empty to use the default values
@@ -54,7 +54,7 @@ $nb-themes: nb-register-theme((
 @import 'themes';
 
 // framework component styles which will use your new theme
-@import '~@nebular/theme/styles/globals';
+@import '~nebular/src/framework/theme/styles/globals';
 
 // install the framework
 @include nb-install() {
@@ -97,7 +97,7 @@ This setup assumes that you have gone through the *Normal Setup* steps.
 ...
 
 // add cosmic theme import below the default theme;
-@import '~@nebular/theme/styles/themes/cosmic';
+@import '~nebular/src/framework/theme/styles/themes/cosmic';
 
 // and mark both themes as enabled 
 $nb-enabled-themes: (default, dark);
@@ -119,9 +119,9 @@ $nb-themes: nb-register-theme((
 So that your `themes.scss` file looks like this:
 
 ```scss
-@import '~@nebular/theme/styles/theming';
-@import '~@nebular/theme/styles/themes/default';
-@import '~@nebular/theme/styles/themes/cosmic';
+@import '~nebular/src/framework/theme/styles/theming';
+@import '~nebular/src/framework/theme/styles/themes/default';
+@import '~nebular/src/framework/theme/styles/themes/cosmic';
 
 $nb-enabled-themes: (default, dark);
 

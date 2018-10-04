@@ -11,7 +11,7 @@ import {
   NB_AUTH_OPTIONS,
   nbAuthCreateToken,
   NbAuthJWTToken, NbAuthToken,
-} from '@nebular/auth';
+} from 'nebular/src/framework/auth';
 import { Router } from '@angular/router';
 import { getDeepFromObject } from '../../framework/auth/helpers';
 

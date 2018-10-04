@@ -88,7 +88,7 @@ We'll assume that our API returns a token as just `{ token: 'some-jwt-token' }` 
 Okay, let's use the token to extract a payload and show a username in the header. Open your `header.component.ts` and import the following services:
 
 ```typescript
-import { NbAuthJWTToken, NbAuthService } from '@nebular/auth';
+import { NbAuthJWTToken, NbAuthService } from 'nebular/src/framework/auth';
 ```
 
 Then, let's create `user` variable, which will store the token payload inside of the component: 

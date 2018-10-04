@@ -6,7 +6,7 @@
 
 import { Component } from '@angular/core';
 
-import { NbCalendarRange, NbDateTimeUtil } from '@nebular/theme';
+import { NbCalendarRange, NbDateTimeUtil } from 'nebular/src/framework/theme';
 
 
 @Component({

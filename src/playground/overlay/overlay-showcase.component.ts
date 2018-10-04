@@ -1,5 +1,5 @@
 import { Component, OnInit, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
-import { NbOverlayRef, NbOverlayService, NbPositionBuilderService, NbTemplatePortal } from '@nebular/theme';
+import { NbOverlayRef, NbOverlayService, NbPositionBuilderService, NbTemplatePortal } from 'nebular/src/framework/theme';
 
 @Component({
   selector: 'nb-overlay-showcase',

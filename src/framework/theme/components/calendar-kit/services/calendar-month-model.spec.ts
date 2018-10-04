@@ -7,7 +7,7 @@
 import { async, inject, TestBed } from '@angular/core/testing';
 
 import { NbCalendarMonthModelService } from './calendar-month-model.service';
-import { NbLocaleService } from '@nebular/theme';
+import { NbLocaleService } from 'nebular/src/framework/theme';
 
 
 describe('month-model-service', () => {
